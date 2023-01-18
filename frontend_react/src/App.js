@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Navbar } from "./components";
 import { About, Footer, Header, Scills, Testimonial, Work } from "./container";
 import "./App.scss";
+import { Navbar } from "./components";
 
 const App = () => {
   return (
