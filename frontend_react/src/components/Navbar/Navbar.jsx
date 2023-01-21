@@ -3,10 +3,10 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 
 import './Navbar.scss';
-import { images } from '../../constans';
+import { images, navLinks } from '../../constans';
 import { useState } from 'react';
 
-const navLinks = ['home', 'about', 'work', 'skills', 'contact'];
+
 
 const Navbar = () => {
 

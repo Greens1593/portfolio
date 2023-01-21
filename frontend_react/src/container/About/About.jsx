@@ -4,6 +4,7 @@ import {motion} from 'framer-motion'
 import './About.scss'
 
 import { urlFor, client } from '../../client'
+import { AppWrap } from '../../wrapper'
 
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
   
 
   return (
-    <>
+    <div className='app__about'>
       <h2 className='head-text'>I know That <span>Good Apps</span> <br /> means <span>Good Bussines</span></h2>
       <div className='app__profile'>
         {abouts.map((about, index) => (
@@ -36,8 +37,8 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
-export default About
+export default AppWrap(About, 'about')
