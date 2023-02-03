@@ -7,7 +7,7 @@ import {urlFor, client} from '../../client'
 
 import './Work.scss'
 
-const categories = ['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All']
+const categories = ['UI/UX', 'Web App', 'Native Javascript', 'React JS', 'Express', 'Vue Js', 'All']
 
 const Work = () => {
 
