@@ -188,6 +188,18 @@
         display: none;
     }
 
+    .app__social{
+        flex-direction: row;
+        gap: 0.5rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .app__container{
+        position: relative;
+    }
+
     .copyright {
         padding: 2rem;
     }
