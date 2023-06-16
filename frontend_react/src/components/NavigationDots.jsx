@@ -1,19 +1,19 @@
-import React from 'react'
-import { navLinks } from '../constans'
+import React from "react";
+import { navLinks } from "../constans";
 
-const NavigationDots = ({active}) => {
+const NavigationDots = ({ active }) => {
   return (
-      <div className='app__navigation'>
-          {navLinks.map((item, index) => (
-              <a
-                href={`#${item}`}
-                  key={item + index}
-                  className='app__navigation-dot'
-                  style={active === item ? {backgroundColor: '#313BAC'} : {}}
-              />
-          ))}
+    <div className="app__navigation">
+      {navLinks.map((item, index) => (
+        <a
+          href={`#${item}`}
+          key={item + index}
+          className="app__navigation-dot"
+          style={active === item ? { backgroundColor: "#313BAC" } : {}}
+        />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default NavigationDots
+export default NavigationDots;
